@@ -1,0 +1,56 @@
+
+
+:root {
+    --color-bg: #121212;
+    --color-text: #e3e3e3;
+    --color-accent: #78ebbf;
+    --color-accent-hover: #41bea1;
+    --color-border: #86f6a4; 
+    --color-border-test: #ff0000; 
+    --font-base: Arial, sans-serif;
+    --floral-corner-offset: 12px; 
+}
+
+/* base reset helps avoid inconsistencies in different browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: var(--font-base);
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--color-accent);
+    font-weight: 600;
+}
+h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem; 
+}
+h2 {
+    font-size: 1.4rem;
+    margin-bottom: 0.4rem; 
+}
+h3 {
+    font-size: 1.05rem;
+    margin-bottom: 0.1rem;
+}
+
+a {
+    color: var(--color-accent);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+strong {
+    color: var(--color-accent-hover); 
+}
